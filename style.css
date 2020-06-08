@@ -1,0 +1,161 @@
+/* // Nav Bar //  */
+.Navbar {
+    background-color: white;
+    margin-top: 2px; 
+    margin-left: 20px; 
+    display: flex;
+    padding: 1.2em;
+    font: 15px Raleway;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* .Navbar__Search {
+    margin-top: 83px; 
+    margin-left: 5em; 
+  } */
+  
+  .Navbar__Items--center {
+    display: flex;
+    padding: 15px; 
+    justify-content: space-between;
+  
+  }
+  
+  #logo-main {
+    width: 330px;
+    border-radius: 0; 
+  }
+  
+  .Navbar__Links { 
+    font: 15px Raleway;
+    color: rgb(0, 0, 0);
+    letter-spacing: .1em; 
+    margin: auto; 
+  }
+  
+  .Navbar__Links:hover {
+    color: rgb(167, 167, 167); 
+    cursor: pointer; 
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  .fa-bars {
+    font-size: 48px; 
+    color: rgb(54, 54, 54); 
+  }
+  
+  #menu {
+    font: 13.5px Raleway;
+  }
+  
+  #STnav {
+    color: rgb(221, 146, 8); 
+  }
+  
+  #STnav:hover {
+    color: rgb(167, 167, 167); 
+  }
+  
+  .fa-search {
+    color: rgb(165, 165, 165); 
+    font-size: 18px; 
+  }
+  
+  /* // Mobile Nav Bar Settings */
+  @media only screen and (max-width: 1350px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+      font-size: 18px; 
+    }
+  
+    .Navbar__Links {
+      padding: 2px; 
+    }
+      
+  .Navbar__Items {
+      display:none;
+      background-color: rgb(245, 243, 243); 
+      margin-bottom: 10px; 
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+      padding-right: 8px;
+     } 
+  }
+  
+  @media only screen and (max-width: 430px) {
+  
+    #logo-main {
+      width: 200px; 
+    }
+  
+    .fa-bars {
+      font-size: 40px; 
+    }
+    
+    #menu {
+      font: 10.5px Raleway;
+    }
+  }
+  /* // end of nav bar */
+
+  /* // message  */
+  body {
+    text-rendering: optimizeLegibility;
+    webkit-font-smoothing:antialiased 
+  }
+
+  .bg {
+    background-color: #2b2b2b;
+    height: 100%;  
+    padding:  30px; 
+    display: flex;
+  }
+  
+  .title {
+    font-family: 'Raleway';
+    color: #ffffff;
+    text-align: left;
+    font-size: 2.5em;
+    margin-top: -5px;
+  }
+  
+  .flex {
+    margin: auto;
+  }
+  
+  .para {
+    font-family: 'Raleway';
+    color: #ffffff;
+    padding-top:  30px; 
+    font-weight: 200;
+    line-height: 1.8;
+  }
+  
+  .preheading {
+    font-family: 'Raleway';
+    color: rgb(124, 175, 66);
+    font-size: 30px; 
+    letter-spacing: 2px;
+    text-align: left;
+    padding-top:  30px; 
+  }
+  
+  h1.title, p {
+    font-family: 'Raleway';  
+    color: white;
+    font-size: 18px;
+  }
+  /* // end of message */
