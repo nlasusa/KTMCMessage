@@ -1,9 +1,4 @@
-// NAV BAR TOGGLE 
-function classToggle() {
-    const navs = document.querySelectorAll('.Navbar__Items')
-    
-    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-  }
-  
-  document.querySelector('.Navbar__Link-toggle')
-    .addEventListener('click', classToggle);
+// ON CLICK EVENTS 
+$("#back").on('click', function(){
+    window.location = "https://ktmc.com/";    
+  });
